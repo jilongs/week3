@@ -1,0 +1,6 @@
+<h1>Poker</h1>
+<%= link_to "Refresh this page to deal a new hand.", poker_url%>
+<hr>
+<% @hand.each do |key, value|%>
+<%= image_tag("poker/#{value}.png")%>
+<% end%>

@@ -1,0 +1,6 @@
+<h1>Rock, Paper, Scissors</h1>
+<hr>
+<h2>Let's Play! Choose one:</h2>
+<%= link_to (image_tag("rock.jpg", :size => "200x200")), rps_url(choose: "rock"), method: "post"%>
+<%= link_to (image_tag("paper.jpg", :size => "200x200")), rps_url(choose: "paper"), method: "post"%>
+<%= link_to (image_tag("scissors.jpg", :size => "200x200")), rps_url(choose: "scissors"), method: "post"%>
